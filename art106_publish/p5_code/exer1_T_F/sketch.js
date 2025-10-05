@@ -51,6 +51,37 @@ function draw() {
     }
   }
 
+// {
+//     for (let i = 0; i < 128; i += 1) {
+//       console.log("i");
+
+//     if(i=256){
+//       // for (let j = 0; j < 256; j += 3) {
+//     //   console.log("j");
+
+//     // for (let k = 0; k < 256; k += 5) {
+//     //   console.log("k");
+
+//       // fill(random(255),random(255),random(255));
+//       // console.log("rand fill");
+
+//       fill(i,185,58)
+//       //   console.log("ijk fill");
+
+//       ellipse( 500, 500, 100, 100 );
+//       console.log("circle");
+//     }
+//       //console.log("this is a random number : " + random(255));
+//   //   }
+//   //  }
+//   }
+
+
+//       //   fill(0,0,0)
+//       // ellipse( 500, 500, 56, 56 );
+// }
+
+
 //hatched(exer1.1.1)
    for (let i=0; i < height; i+=56) {
     fill(64,255,160);

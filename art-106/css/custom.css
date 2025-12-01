@@ -1,8 +1,8 @@
 body {
 
-  
-color:rgb(184, 112, 184);
-background-color: rgb(100, 40, 100);
+
+  color: rgb(64, 0, 160);
+  background-color: rgb(96, 160, 192);
 
 }
 
@@ -12,74 +12,105 @@ background-color: rgb(100, 40, 100);
   max-width: 1500px;
   margin: 0 auto;
   padding: 0 20px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 a:link {
-    color: rgb(64, 64, 255);
-    text-decoration: none;
+  color: rgb(32, 32, 255);
+  text-decoration: none;
 }
 
 a:visited {
-    text-decoration: none;
-    color: rgb(128, 128, 255);
+  text-decoration: none;
+  color: rgb(96, 96, 255);
 }
+
 a:hover {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
+
 a:active {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 
-td, th {
-    color: #A0522D;
+td,
+th {
+  color: #A0522D;
 }
 
 
 
-.nav_pad{
-  padding-top:40px;
+.nav_pad {
+  text-align: center;
+  padding-top: 40px;
+  background-color: rgb(96, 192, 192);
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border-radius: 20px;
 }
-.section{
+
+.center {
+  text-align: center;
+}
+
+.section {
+  text-align: center;
   padding-top: 30px;
-  padding-bottom:40px;
-
+  padding-bottom: 40px;
+  background-color: rgb(96, 192, 192);
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border-radius: 20px;
 }
 
-.mid-section{
-  padding-top: 120px;
-  padding-bottom:40px;
+.head {
+  text-align: center;
+  padding-top: 20px;
+  background-color: rgb(96, 192, 192);
+  /* width: 250px; */
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 20px;
+  /* translate: 250px; */
+}
 
+.mid-section {
+  padding-top: 120px;
+  padding-bottom: 40px;
 }
 
 .key {
-  font-weight:bold;
-
-
+  font-weight: bold;
 }
+
 .stripe {
- background-color: #DADADA;
+  background-color: #DADADA;
 }
 
 
-ul.disc{
+ul.disc {
   list-style: disc;
   margin-left: 15px
 }
 
 
-.navbar ul li{
-    list-style: none;
-    display: inline-block;
-    padding-right:10px;
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
 }
 
 
 .statement_text {
-/** eagles green  */
-    background-color: rgb(0, 73, 83);
-    padding: 12.5px;
-    margin-top: 23px;
-    border: 12.5px dashed rgb(255, 255, 255);
+  /** eagles green  */
+  background-color: rgb(0, 73, 83);
+  padding: 12.5px;
+  margin-top: 23px;
+  border: 12.5px dashed rgb(255, 255, 255);
 }

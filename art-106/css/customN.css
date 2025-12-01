@@ -14,13 +14,13 @@ body {
   box-sizing: border-box; }
 
 a:link {
-    color: rgb(64, 64, 255);
+    color: rgb(255, 64, 64);
     text-decoration: none;
 }
 
 a:visited {
     text-decoration: none;
-    color: rgb(128, 128, 255);
+    color: rgb(255, 128, 128);
 }
 a:hover {
     text-decoration: none;
